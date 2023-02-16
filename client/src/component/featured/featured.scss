@@ -1,0 +1,74 @@
+.featured{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    color: white;
+    background-color:#105710 ;
+    .container{
+        width: 1400px;
+        align-items: center;
+        display: flex;
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            h1{
+                font-size: 50px;
+                i{
+                    font-weight: 200;
+                }
+            }
+            .search{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                justify-content: space-between;
+                background-color: #fff;
+
+                .searchInput{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 24px;
+                        height: 24px;
+                        margin: 10px;
+                    }
+                    input{
+                        border: none;
+                        outline: none;
+                    }
+                }
+                button{
+                    width: 120px;
+                    height: 50px;
+                    border: none;
+                    background-color: #1f9f57;
+                    cursor: pointer;
+                }
+            }
+            .popular{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                span{}
+                button{
+                    color: #fff;
+                    background-color: transparent;
+                    border: 1px solid #fff;
+                    border-radius: 20px;
+                    padding: 5px 10px;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .right{
+            height: 100%;
+            img{
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}

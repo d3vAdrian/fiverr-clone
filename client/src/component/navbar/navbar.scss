@@ -2,11 +2,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: green;
+    background-color: #105710;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     position: sticky;
     top: 0;
+    z-index: 999;
     &.active{
         background-color: #fff;
         color: #333;

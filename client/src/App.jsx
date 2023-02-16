@@ -12,6 +12,8 @@ import Orders from "./view/orders/Orders";
 import Messages from "./view/messages/Messages";
 import Message from "./view/message/Message";
 import MyGigs from "./view/myGigs/MyGigs";
+import './app.scss'
+
 
 function App() {
   const Layout = () => {

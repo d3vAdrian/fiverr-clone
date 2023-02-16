@@ -29,9 +29,9 @@ const Navbar = () => {
     <div className={active || pathname !=="/" ? "navbar active" : "navbar"} >
       <div className="container">
         <div className="logo">
-          {/* <Link to="/"> */}
+          <Link to="/" className='link'>
             <span className="text">Fiverr</span>
-          {/* </Link> */}
+          </Link>
           <span className="dot">.</span>
         </div>
         <div className="links">
@@ -43,7 +43,7 @@ const Navbar = () => {
           {!currentUser && <button>join</button>}
           {currentUser &&(
             <div className="user" onClick={()=>setOpen(!open)}>
-              <img src="" alt="" />
+              <img src="./img/man.png" alt="" />
               <span>{currentUser?.username}</span>
               {open &&<div className="options">
                 {currentUser?.isSeller&&(

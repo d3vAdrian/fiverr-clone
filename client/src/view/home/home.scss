@@ -1,0 +1,92 @@
+*{
+    .ptitle{
+        width: 1400px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 30px ;
+        font-weight: bolder;
+        font-size: 34px;
+    }
+    .home{
+        .features{
+            display: flex;
+            justify-content: center;
+            padding: 100px 0;
+            background-color: #f1fdf7;
+            &.dark{
+                background-color: #0d084d;
+                h1{
+                    color: white  !important;
+                }
+                p{
+                    color: white !important;
+                    margin-bottom: 20px !important;
+                }
+                .title{
+                    color: white !important;
+                    font-weight: 300 !important;
+                    font-size: 14px !important;
+                }
+                img{
+                    width: 100%;
+                    background-color:#0d084d ;
+                }
+                button{
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    padding: 10px 20px;
+                    background-color: #1dbf73;
+                    font-size: 16px;
+                    width: max-content;
+                    margin-top: 15px;
+                }
+            }
+            .container{
+                display: flex;
+                width: 1400px;
+                align-items: center;
+                gap: 200px;
+                .item{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    &:first-child{
+                        flex: 2;
+                    }
+                    &:last-child{
+                        flex: 3;
+                        background-color: black;
+                    }
+                    h1{
+                        font-weight: 900;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 18px;
+                        font-weight: 300;
+                        color: rgb(143, 140, 140);
+                        line-height: 28px;
+                        letter-spacing: 0.5px;
+                    }
+                    .title{
+                        display: flex;
+                        align-items: center;
+                        font-weight: 900;
+                        gap: 10px;
+                        color: rgb(80, 77, 77);
+                        img{
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                    video{
+                        width: 720px;
+                    }
+    
+                }
+            }
+        }
+    }
+}
